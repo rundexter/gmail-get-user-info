@@ -28,6 +28,7 @@
             "title":"historyId"
         }
     ],
+    "icon": "google-plus",
     /* Required.A display name for the module */
     "title": "Google Get User Info"
 }
