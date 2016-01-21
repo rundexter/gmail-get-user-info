@@ -14,19 +14,6 @@ var pickInputs = {
     };
 
 module.exports = {
-    checkAuthOptions: function (step, dexter) {
-
-        if(!step.input('userId').first()) {
-
-            this.fail('A userId input variable is required for this module');
-        }
-
-        if(!dexter.environment('google_access_token')) {
-
-            this.fail('A google_access_token environment variable is required for this module');
-        }
-    },
-
     /**
      * The main entry point for the Dexter module
      *
