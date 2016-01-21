@@ -28,7 +28,15 @@
             "title":"historyId"
         }
     ],
+    "providers": [{
+        "name": "google",
+        "scopes": [
+            "https://mail.google.com/",
+            "https://www.googleapis.com/auth/gmail.modify",
+            "https://www.googleapis.com/auth/gmail.compose",
+            "https://www.googleapis.com/auth/gmail.readonly"
+        ]
+    }],
     "icon": "google-plus",
-    /* Required.A display name for the module */
     "title": "Google Get User Info"
 }
